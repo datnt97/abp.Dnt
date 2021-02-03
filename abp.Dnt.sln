@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abp.Dnt.Domain", "abp.Dnt.Domain\abp.Dnt.Domain.csproj", "{F3F5FD38-37D3-4A32-8CB6-ECA4A0478D6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abp.Dnt.Domain.Shared", "abp.Dnt.Domain.Shared\abp.Dnt.Domain.Shared.csproj", "{A13C8E4B-A5BD-49D8-B4FF-92C0FADC043F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3F5FD38-37D3-4A32-8CB6-ECA4A0478D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F5FD38-37D3-4A32-8CB6-ECA4A0478D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F5FD38-37D3-4A32-8CB6-ECA4A0478D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F5FD38-37D3-4A32-8CB6-ECA4A0478D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13C8E4B-A5BD-49D8-B4FF-92C0FADC043F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13C8E4B-A5BD-49D8-B4FF-92C0FADC043F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13C8E4B-A5BD-49D8-B4FF-92C0FADC043F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13C8E4B-A5BD-49D8-B4FF-92C0FADC043F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
