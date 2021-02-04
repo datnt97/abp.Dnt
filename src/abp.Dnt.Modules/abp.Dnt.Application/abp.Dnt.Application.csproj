@@ -4,4 +4,13 @@
     <TargetFramework>$(AspNetCoreTargetFramework)</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\abp.Dnt.Application.Contracts\abp.Dnt.Application.Contracts.csproj" />
+    <ProjectReference Include="..\abp.Dnt.Domain\abp.Dnt.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
