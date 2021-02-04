@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abp.Dnt.Domain", "abp.Dnt.Domain\abp.Dnt.Domain.csproj", "{F3F5FD38-37D3-4A32-8CB6-ECA4A0478D6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "abp.Dnt.Domain", "abp.Dnt.Domain\abp.Dnt.Domain.csproj", "{F3F5FD38-37D3-4A32-8CB6-ECA4A0478D6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abp.Dnt.Domain.Shared", "abp.Dnt.Domain.Shared\abp.Dnt.Domain.Shared.csproj", "{A13C8E4B-A5BD-49D8-B4FF-92C0FADC043F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "abp.Dnt.Domain.Shared", "abp.Dnt.Domain.Shared\abp.Dnt.Domain.Shared.csproj", "{A13C8E4B-A5BD-49D8-B4FF-92C0FADC043F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "abp.Dnt.EntityFrameworkCore", "abp.Dnt.EntityFrameworkCore\abp.Dnt.EntityFrameworkCore.csproj", "{3C598326-386F-446B-962B-ED1C0EDCE067}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "abp.Dnt.EntityFrameworkCore.DbMigrations", "abp.Dnt.EntityFrameworkCore.DbMigrations\abp.Dnt.EntityFrameworkCore.DbMigrations.csproj", "{FC16CBF9-55C9-498E-B905-BB9F6698402B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abp.Dnt.Migrator", "abp.Dnt.Migrator\abp.Dnt.Migrator.csproj", "{992EA157-D825-456D-9674-6264EC6B37AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abp.Dnt.Application.Contracts", "abp.Dnt.Application.Contracts\abp.Dnt.Application.Contracts.csproj", "{EA3D08CC-859D-4674-98BC-1DAD187B7D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abp.Dnt.Application", "abp.Dnt.Application\abp.Dnt.Application.csproj", "{19C8ACA1-B55B-4A26-829C-23D92B5C3629}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,26 @@ Global
 		{A13C8E4B-A5BD-49D8-B4FF-92C0FADC043F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A13C8E4B-A5BD-49D8-B4FF-92C0FADC043F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A13C8E4B-A5BD-49D8-B4FF-92C0FADC043F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C598326-386F-446B-962B-ED1C0EDCE067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C598326-386F-446B-962B-ED1C0EDCE067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C598326-386F-446B-962B-ED1C0EDCE067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C598326-386F-446B-962B-ED1C0EDCE067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC16CBF9-55C9-498E-B905-BB9F6698402B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC16CBF9-55C9-498E-B905-BB9F6698402B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC16CBF9-55C9-498E-B905-BB9F6698402B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC16CBF9-55C9-498E-B905-BB9F6698402B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{992EA157-D825-456D-9674-6264EC6B37AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992EA157-D825-456D-9674-6264EC6B37AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992EA157-D825-456D-9674-6264EC6B37AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992EA157-D825-456D-9674-6264EC6B37AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA3D08CC-859D-4674-98BC-1DAD187B7D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA3D08CC-859D-4674-98BC-1DAD187B7D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA3D08CC-859D-4674-98BC-1DAD187B7D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA3D08CC-859D-4674-98BC-1DAD187B7D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C8ACA1-B55B-4A26-829C-23D92B5C3629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C8ACA1-B55B-4A26-829C-23D92B5C3629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C8ACA1-B55B-4A26-829C-23D92B5C3629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C8ACA1-B55B-4A26-829C-23D92B5C3629}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
